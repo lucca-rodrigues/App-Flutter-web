@@ -1,3 +1,4 @@
+import 'package:app_teste/widget/dynamic_text.dart';
 import 'package:app_teste/widget/item_product.dart';
 import 'package:app_teste/widget/mobile_app_bar.dart';
 import 'package:app_teste/widget/web_app_bar.dart';
@@ -47,6 +48,7 @@ class _VirtualShoppingState extends State<VirtualShopping> {
               ProductItem("Samsung Edge", "2.149,90", "p4.jpg"),
               ProductItem("Galaxy 10", "2.299,90", "p5.jpg"),
               ProductItem("Iphone 11", "12.999,90", "p6.jpg"),
+              DynamicText(),
             ],
           ),
         ),
